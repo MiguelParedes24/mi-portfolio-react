@@ -1,0 +1,36 @@
+.headerPrincipal-banner{
+	background-image: url("../../img/walpaper-programacion.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding: 50px;
+    margin-bottom:10px ;
+}
+
+.banner{
+    height: 200px;
+    width: 100%;
+    display:flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+}
+
+.subtituloBanner{
+    text-decoration: none;
+}
+
+
+
+/** responsive **/
+
+@media (max-width: 768px) {
+    .banner{
+        font-size: large;
+    }
+}
+
+

@@ -1,0 +1,64 @@
+#projects{
+    padding: 5px;
+    border-radius: 0.2rem;
+    background-color: cadetblue;
+    color: white;
+}
+
+.contenedor-proyectos{
+    width: 100%;
+	display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+
+}
+
+.portfolio-proyecto{
+	width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.h2-proyecto{
+	color: #FFF;
+}
+
+.vistaPrevia-proyecto{
+    margin-left: 32%;
+	width: 500px;
+	height: 200px;
+	border-radius: 0.5rem;
+	border: 2px solid black;
+}
+
+.vistaPrevia-proyecto:hover{
+	border: 2px solid white;
+}
+
+
+/** RESPONSIVE **/
+
+@media ( width<= 768px){
+
+    .portfolio-proyecto{
+        width: 30%;
+        height: auto;
+        padding: 5px;
+    }
+    
+    .h2-proyecto{
+        color: #FFF;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .vistaPrevia-proyecto{
+        width: 250px;
+        height: 150px;
+        border-radius: 0.5rem;
+        border: 2px solid black;
+    }
+
+}
+
+
